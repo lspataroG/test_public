@@ -1,0 +1,79 @@
+ihhw# Datasets and local data directories
+dataset/
+video_dataset/
+face_validation/
+fitting_generation/
+fix_tradeinn/
+testing_clothes/
+test_fitting/
+
+# Debug
+**/debug/
+
+# Root-level scratch files (notebooks, scripts, images, data)
+/*.ipynb
+/*.csv
+/*.jsonl
+/*.mp4
+/*.png
+/*.jpeg
+/*.py
+/*.txt
+/*.md
+!README.md
+
+# Claude
+.claude/
+
+# Exclude npm configuration files
+.npmrc
+package-lock.json
+**/package-lock.json
+
+# Exclude Python configuration files
+pip.conf
+.pypirc
+uv.toml
+**/.pypirc
+**/pip.conf
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

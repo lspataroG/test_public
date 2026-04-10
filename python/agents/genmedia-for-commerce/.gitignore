@@ -1,0 +1,47 @@
+.DS_Store
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+metadata.json
+debug*/
+dataset/
+*.egg-info/
+node_modules/
+package-lock.json
+.venv/
+dist/
+build/
+*.egg
+.env
+config.env
+!config.env.example
+deployment_metadata.json
+.vite/
+gcp-default-sa-key.json
+model/inswapper_128.onnx
+.vscode/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Debug videos from spinning backends
+interpolation_*.mp4
+r2v_*.mp4
+
+# MCP server log (regenerated at runtime)
+mcp_server.log
+
+# ADK session databases
+.adk/
+
+# Test/benchmark caches
+.pytest_cache/
+.benchmarks/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Catalogue data (auto-downloaded from GCS at startup)
+assets/backend_assets/catalogue/
