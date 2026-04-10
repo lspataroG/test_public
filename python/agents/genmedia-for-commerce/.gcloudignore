@@ -1,0 +1,79 @@
+# Include defaults from .gitignore
+#!include:.gitignore
+
+.DS_Store
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git/
+.gitignore
+
+# Virtual environments
+.venv/
+**/.venv/
+venv/
+
+# Node / build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+package-lock.json
+**/package-lock.json
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+infra/terraform/.terraform/
+
+# Datasets and local data directories
+dataset/
+video_dataset/
+face_validation/
+fitting_generation/
+fix_tradeinn/
+testing_clothes/
+test_fitting/
+
+# Debug
+**/debug/
+
+# Root-level scratch files (notebooks, scripts, images, data)
+/*.ipynb
+/*.csv
+/*.jsonl
+/*.mp4
+/*.png
+/*.jpeg
+/*.py
+/*.txt
+/*.md
+!README.md
+
+# Claude
+.claude/
+
+# Playwright
+.playwright-mcp/
+
+# Misc
+*.egg-info/
+*.egg
+*.log
+Thumbs.db
+.npmrc
+.pypirc
+pip.conf
+metadata.json
+gcp-default-sa-key.json
+model/inswapper_128.onnx
